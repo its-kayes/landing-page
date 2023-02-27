@@ -538,6 +538,14 @@ body {
     text-align: center;
 }
 
+.testimonial-dec img:hover {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
 .testimonial-text {
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 45% 75%, 20% 100%, 20% 75%, 0% 75%);
     text-align: center;
@@ -549,6 +557,13 @@ body {
     background-color: white;
     padding: 5px;
     height: 120px;
+}
+
+.testimonial-text:hover {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 50% 75%, 0% 75%);
+    transition: 0.3s;
+    zoom: 0.9;
+    transform: scale(1.1);
 }
 
 .testimonial-name {
