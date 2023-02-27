@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 body {
     margin: 0 !important;
 }
